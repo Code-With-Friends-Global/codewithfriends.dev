@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React + TS</title>
+  </head>
+  <body>
+
+  <button id="hello-world">Send "Hello world"</button>
+  <widgetbot
+    server="1032380400313565294"
+    channel="1079803160002048060"
+    id="embed"
+    height="300"
+    width="500"
+  >
+  </widgetbot>
+  <script src="https://unpkg.com/@widgetbot/html-embed"></script>
+
+  <script>
+    const embed = document.getElementById('embed')
+
+    document.getElementById('hello-world').addEventListener('click', () => {
+      embed.emit(
+        'sendMessage',
+        `Hello world! from \`@widgetbot/html-embed!\`\n` +
+          `<https://codesandbox.io/s/y32o59nn0v>`
+      )
+    })
+
+    embed.on('signIn', data => {
+      console.log(`You've signed in as ${data.name}`)
+    })
+  </script>
+
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
