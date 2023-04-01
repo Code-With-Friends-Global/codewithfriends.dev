@@ -5,6 +5,11 @@
   text-align: center;
 }
 
+#jitsi-container {
+  display: flex-container;
+  height: 500px;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
