@@ -24,13 +24,10 @@
   <script>
     const embed = document.getElementById('embed')
 
-    document.getElementById('hello-world').addEventListener('click', () => {
-      embed.emit(
-        'sendMessage',
-        `Hello world! from \`@widgetbot/html-embed!\`\n` +
-          `<https://codesandbox.io/s/y32o59nn0v>`
-      )
-    })
+    embed.emit(
+      'sendMessage',
+      `Hello world! from \`@widgetbot/html-embed!\`\n`
+    )
 
     embed.on('signIn', data => {
       console.log(`You've signed in as ${data.name}`)
