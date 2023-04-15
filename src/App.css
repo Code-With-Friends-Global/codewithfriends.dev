@@ -1,17 +1,26 @@
-h1 {
+h1#title {
   color: #e0c57b;
+  width: 30rem;
 }
 
 #root {
   max-width: 1280px;
+  width: 100%;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
 
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-bottom: 2rem;
+}
+
 #jitsi-container {
   display: flex-container;
-  height: 500px;
+  width: 100%;
 }
 
 .logo {
@@ -43,10 +52,6 @@ h1 {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
-}
-
-.card {
-  padding: 2em;
 }
 
 .read-the-docs {

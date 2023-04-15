@@ -15,7 +15,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.10.0",
-    "sort-by": "^1.2.0"
+    "sort-by": "^1.2.0",
+    "xterm-for-react": "^1.0.4"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
