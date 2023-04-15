@@ -8,13 +8,18 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Code With Friends</h1>
 
       <div id="main">
 
+       <h1 id="title">Code With Friends</h1>
        <div id="jitsi-container">
         <JitsiMeeting
           roomName = { 'Rooom with a View' } // make sure it's a good one!
+          getIFrameRef = { node => node.style.height = '200px' }
+          configOverwrite = {{
+            startWithAudioMuted: true,
+            hiddenPremeetingButtons: ['microphone']
+          }}
         />
        </div>
 
