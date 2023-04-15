@@ -7,10 +7,15 @@
     <title>Code With Friends - an online learning collective</title>
   </head>
   <body>
-
+    
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
-
+    
+    <script type="module">
+      import { io } from "https://cdn.socket.io/4.3.2/socket.io.esm.min.js";
+      const socket = io("https://codewithfriends.dev:8888");
+    </script>
+    
     <div id="widgetbot">
       <widgetbot
         server="1032380400313565294"
