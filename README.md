@@ -7,6 +7,13 @@ https://www.figma.com/file/g86E9GBhrhIHwN01ZZE8lF/Code-With-Friends-Front-Page?n
 ### Community Meeting Notes
 4/18/2023 1st Code with Friends Community Meeting
 
+Agenda for 1st Community Meeting:
+1. Turning Code with Friends into Community Server
+2. Feedbacks/thoughts on current events/programming
+3. What are you looking for on this server? What would you like to learn or what would you like to see on this server?...
+4. What type of programming event/ resources might be helpful for you?
+5. What would you like to contribute?
+
 Requirements for becoming a community server
 https://support.discord.com/hc/en-us/articles/360047132851-Enabling-Your-Community-Server#h_01EEJW06BWCBBNNSM2SNW17GBW
 
