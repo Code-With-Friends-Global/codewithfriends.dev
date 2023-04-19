@@ -1,4 +1,4 @@
-# Community Meeting Notes: April, 18 2023: 1st Code with Friends Community Meeting
+# April, 18 2023: 1ˢᵗ Code with Friends Community Meeting
 
 ## Agenda for 1st Community Meeting:
 
