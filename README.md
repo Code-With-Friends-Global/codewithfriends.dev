@@ -8,10 +8,9 @@ https://www.figma.com/file/g86E9GBhrhIHwN01ZZE8lF/Code-With-Friends-Front-Page?n
 
 * 2023/04/18: [Community Call #1](meetings/2023-04-18:%20Community%20Call.md)
 
-## Communication Channels
+## Official Communication Channel
 
-* Discord - 
-* MeetUp.com - 
+* Discord - https://discord.gg/uVgcDMtC
 
 ## Development Environment Setup
 
