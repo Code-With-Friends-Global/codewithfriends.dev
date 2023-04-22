@@ -1,4 +1,4 @@
-CodeWithFriends Development Environment Setup for Windows:
+# CodeWithFriends Development Environment Setup for Windows:
 
 1) Install Ubuntu/WSL from Microsoft Store or install Git Bash.
 
