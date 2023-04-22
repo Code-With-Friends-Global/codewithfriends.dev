@@ -14,5 +14,5 @@ https://www.figma.com/file/g86E9GBhrhIHwN01ZZE8lF/Code-With-Friends-Front-Page?n
 
 ## Development Environment Setup
 
-* Windows - [Click here for instructions to setup your Windows machine](https://github.com/DetroitCodeWithFriends/codewithfriends.dev/blob/main/setup-windows)
+* Windows - [Click here for instructions to setup your Windows machine](https://github.com/DetroitCodeWithFriends/codewithfriends.dev/blob/main/setup-windows.md)
 * Mac/Linux - 
