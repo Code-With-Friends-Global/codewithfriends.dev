@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code With Friends - an online learning collective</title>
+    <script type="module" crossorigin src="/assets/index-36a48145.js"></script>
+    <link rel="stylesheet" href="/assets/index-7ae1a709.css">
+  </head>
+  <body>
+    
+    <div id="root"></div>
+    
+    
+    
+    
+    <div id="widgetbot">
+      <widgetbot
+        server="1032380400313565294"
+        channel="1079803160002048060"
+        id="embed"
+        height="300"
+        width="500"
+      >
+      </widgetbot>
+    </div>
+  <script src="https://unpkg.com/@widgetbot/html-embed"></script>
+
+  <script>
+    const embed = document.getElementById('embed')
+
+    embed.emit(
+      'sendMessage',
+      `Hello world! from \`@widgetbot/html-embed!\`\n`
+    )
+
+    embed.on('signIn', data => {
+      console.log(`You've signed in as ${data.name}`)
+    })
+  </script>
+
+  </body>
+</html>
